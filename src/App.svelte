@@ -1,13 +1,14 @@
 <script>
-  import Audio from "./Componenten/Audio.svelte";
-  import Navigation from "./Componenten/Navigation.svelte";
-  import Box from "./Componenten/Layout/Box.svelte";
+  import Audio from "./Main_Components/Audio.svelte";
+  import Navigation from "./Main_Components/Layout/Navigation.svelte";
+  import Box from "./Main_Components/Layout/Box.svelte";
   import "./App.css";
-  import Image from "./Componenten/Image.svelte";
-  import Box60 from "./Componenten/Layout/Box60.svelte";
-  import Box100 from "./Componenten/Layout/Box100.svelte";
-  import BoxScreen from "./Componenten/Layout/BoxScreen.svelte";
-  import Swiper from "./Componenten/Swiper.svelte";
+  import Image from "./Main_Components/Image.svelte";
+  import Box60 from "./Main_Components/Layout/Box60.svelte";
+  import Box100 from "./Main_Components/Layout/Box100.svelte";
+  import BoxScreen from "./Main_Components/Layout/BoxScreen.svelte";
+  import Swiper from "./Main_Components/Swiper.svelte";
+  import Image60 from "./Componenten/Images/Image60.svelte";
   let y;
 </script>
 
@@ -17,7 +18,7 @@
   <Navigation />
   <div class="w-screen h-screen relative">
     <div
-      class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 lg:w-3/5 h-auto "
+      class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 lg:w-3/5 h-auto"
     >
       <h3 class="text-center text-wit font-libre text-md lg:text-xl mb-3">
         <span class="font-semibold">ONDERZOEKSREEKS</span> DE VEEFABRIEKEN
@@ -44,7 +45,7 @@
     <img
       src="https://static.standaard.be/Assets/Images_Upload/2020/11/27/Chicken_Valley_03-jk_aangepast.jpg"
       alt=""
-      class="object-cover w-full h-full "
+      class="object-cover w-full h-full"
     />
   </div>
   <Box>
@@ -101,6 +102,7 @@
       />
     </video>
   </BoxScreen>
+
   <Box>
     <p>
       zegt hij nog steeds: “Ik zal het voor je regelen”.’ Coppens stond garant
@@ -147,7 +149,7 @@
     </div>
   </Box60>
   <Box>
-    <h2 class="font-arnhem font-bold text-lg mt-6 mb-3 ">
+    <h2 class="font-arnhem font-bold text-lg mt-6 mb-3">
       Alles in handen van enkele families
     </h2>
     <p>
@@ -167,15 +169,14 @@
       te bouwen tot de omvang die het nu heeft.
     </p>
   </Box>
-  <Box60>
-    <Image
-      url="https://static.standaard.be/Assets/Images_Upload/2020/11/26/wuustwezel2-jk.jpg"
-      caption="Foto: Jimmy Kets"
-    />
-  </Box60>
+
+  <Image60
+    url="https://static.standaard.be/Assets/Images_Upload/2020/11/26/wuustwezel2-jk.jpg"
+    caption="Foto: Jimmy Kets"
+  />
 
   <Box>
-    <h2 class="font-arnhem font-bold text-lg mt-6 mb-3 ">
+    <h2 class="font-arnhem font-bold text-lg mt-6 mb-3">
       Alles in handen van enkele families
     </h2>
     <p>
@@ -283,7 +284,8 @@
       om vijf jaar voeder af te nemen. Die bankgarantie was nodig, want Aernouts
       had als beginnende landbouwster weinig om voor te leggen. In drie jaar
       tijd had ze twee keer een miljoen euro nodig om haar bedrijf uit te bouwen
-      tot de omvang die het nu heeft. <br /><br />
+      tot de omvang die het nu heeft.
+      <br /><br />
       Als ik niet weet hoe ik iets moet aanpakken, zegt hij nog steeds: “Ik zal het
       voor je regelen”.’ Coppens stond garant bij de bank. In ruil sloot Aernouts
       met hen een contract af om vijf jaar voeder af te nemen. Die bankgarantie was

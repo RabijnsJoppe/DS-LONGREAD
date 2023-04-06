@@ -1,5 +1,4 @@
 <script>
-    import Image from "./Image.svelte";
     import { register } from "swiper/element/bundle";
     register();
     import { EffectFade, Autoplay } from "swiper";
@@ -10,6 +9,7 @@
     import "swiper/css/autoplay";
     import "swiper/css/pagination";
     import "swiper/css/scrollbar";
+
     export let images = [
         "https://static.standaard.be/Assets/Images_Upload/2020/12/05/fa25907c-363c-11eb-89ac-9ecbc5931203.jpg?width=768&format=jpg",
         "https://static.standaard.be/Assets/Images_Upload/2023/03/10/9c03eed9-2173-4a08-aa06-16f8a1d8492f.jpg?maxheight=416&maxwidth=568&scale=both",
